@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "GQ/5AfYaaaA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scpty\\source\\repos\\sistema_meteorológico\\sistema_meteorológico\\sistema_meteorológico.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scpty\\.nuget\\packages\\swi.prolog\\1.1.5990\\swi.prolog.1.1.5990.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SWI.Prolog 1.1.5990\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SWI.Prolog",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

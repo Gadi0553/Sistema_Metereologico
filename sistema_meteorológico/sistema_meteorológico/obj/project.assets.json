@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "SWI.Prolog/1.1.5990": {
+        "type": "package",
+        "compile": {
+          "lib/net35/SwiPlCs.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net35/SwiPlCs.dll": {
+            "related": ".XML"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SWI.Prolog/1.1.5990": {
+      "sha512": "fzRMRokUbfvSUUNH2BmdyJAuwCyvh350tltdd7qgAXSqItxWlsw2otI5LAWB9vgddoMojOmp6dtiMr5HGThD4A==",
+      "type": "package",
+      "path": "swi.prolog/1.1.5990",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "doc/SwiCsPlDocumentation.chm",
+        "lib/net35-x64/SwiPlCs.dll",
+        "lib/net35/SwiPlCs.XML",
+        "lib/net35/SwiPlCs.dll",
+        "swi.prolog.1.1.5990.nupkg.sha512",
+        "swi.prolog.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "SWI.Prolog >= 1.1.5990"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\scpty\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\scpty\\source\\repos\\sistema_meteorológico\\sistema_meteorológico\\sistema_meteorológico.csproj",
+      "projectName": "sistema_meteorológico",
+      "projectPath": "C:\\Users\\scpty\\source\\repos\\sistema_meteorológico\\sistema_meteorológico\\sistema_meteorológico.csproj",
+      "packagesPath": "C:\\Users\\scpty\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\scpty\\source\\repos\\sistema_meteorológico\\sistema_meteorológico\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\scpty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "SWI.Prolog": {
+            "target": "Package",
+            "version": "[1.1.5990, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"SWI.Prolog 1.1.5990\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "SWI.Prolog",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

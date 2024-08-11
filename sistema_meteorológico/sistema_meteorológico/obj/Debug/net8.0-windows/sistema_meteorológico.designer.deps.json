@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SWI.Prolog/1.1.5990": {
+        "runtime": {
+          "lib/net35/SwiPlCs.dll": {
+            "assemblyVersion": "1.1.5990.0",
+            "fileVersion": "1.1.5990.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SWI.Prolog/1.1.5990": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fzRMRokUbfvSUUNH2BmdyJAuwCyvh350tltdd7qgAXSqItxWlsw2otI5LAWB9vgddoMojOmp6dtiMr5HGThD4A==",
+      "path": "swi.prolog/1.1.5990",
+      "hashPath": "swi.prolog.1.1.5990.nupkg.sha512"
+    }
+  }
+}
